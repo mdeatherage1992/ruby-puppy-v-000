@@ -11,8 +11,6 @@ def self.all
   end
 end
 def self.clear_all
-  if @@all != []
-    @@all == []
-  end
+  return @@all.clear
 end
 end
