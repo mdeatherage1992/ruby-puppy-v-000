@@ -10,7 +10,7 @@ def self.all
     puts dog.name
   end
 end
-def clear.all
+def clear_all
   if @@all != []
     @@all == []
   end
